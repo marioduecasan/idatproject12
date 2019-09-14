@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Flex Slider 1</title>
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <!-- Place somewhere in the <head> of your document -->
+    <link rel="shorcut icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"/>
+	<link rel="stylesheet" href="flexsliderpersonal.css" type="text/css" />
+	<script src="https://kit.fontawesome.com/67af184ac0.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="header navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo.png" alt="" width="250px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html"
+                  >Inicio </a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/promociones.html">Promociones</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <div
+                  class="dropdown-menu bg-success"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="./serv-guia de trabajo.html">Traslados</a>
+                  <a class="dropdown-item" href="/serv-traslados.html">Guia de trabajo</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Tours
+                </a>
+                <div
+                  class="dropdown-menu bg-success"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="/tours-lima-paracas.html">Lima - Paracas</a>
+                  <a class="dropdown-item" href="/tours-paracas-ica.html">Lima - Paracas - Ica</a>
+                  <a class="dropdown-item" href="/tours-paracas-ica-nazca.html">Lima - Paracas - Ica - Nazca</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/galeria.html">Galeria de Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactenos.html">Contáctenos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="img/banner01.jpg" />
+          <section class="flex-caption">
+            <p class="d-none d-sm-block">Uso del flexslider</p>
+            <input type="submit value=Enviar" />
+          </section>
+        </li>
+        <li>
+          <img src="img/banner02.jpg" />
+        </li>
+        <li>
+          <img src="img/banner03.jpg" />
+        </li>
+      </ul>
+    </div>
+
+    <section>
+      <article class="row">
+        <div class="col-lg-6 my-auto mx-auto">
+          <h2>TRANSPORTE TURÍSTICO EN TODO EL PERÚ:</h2>
+          <p>
+            Te damos la bienvenida amigo turista y te invitamos a descubrir
+            lugares maravillosos, poniendo el Perú a tu alcance mediante un
+            servicio de calidad basado en nuestra amplia experiencia. AR.VI.RI.
+            Servicios Turísticos se amolda a tus expectativas y te lleva a donde
+            tu lo solicites, asesorándote para que tu viaje sea seguro, cómodo y
+            de plena satisfacción en tu recorrido por nuestro país.
+          </p>
+          <h2>SERVICIOS OFRECIDOS:</h2>
+          <ul>
+            <li>Traslados del Aeropuerto al Hotel ó domicilio.</li>
+            <li>Traslados del Hotel o domicilio al Aeropuerto</li>
+            <li>City Tours</li>
+            <li>Full Days</li>
+            <li>Viajes.</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 my-auto mx-auto">
+          <img src="img/viajeros.jpg" width="80%" />
+        </div>
+      </article>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="mt-5 text-center">QUIENES SOMOS?</h2>
+          <br />
+          <p class="text-justify">
+            Somos una empresa dedicada al servicio de Transporte Especial de
+            Personas bajo la modalidad de servicio de Transporte Turístico de
+            ámbito nacional. Contamos con modernos vehículos full-equipo,
+            conductores profesionales del turismo, permisos y licencias del
+            MINCETUR y MTC. Nuestros vehículos cuentan con SOAT, Seguro contra
+            todo riesgo y GPRS. También brindamos asesoría con respecto a
+            paquetes turísticos a nivel nacional y nos adecuamos a tus
+            necesidades en función a tu disponibilidad de tiempo y a tu economía
+          </p>
+          <br />
+          <div align="center">
+            <img
+              src="img/autos.jpg"
+              alt=""
+              width="100%"
+              style="max-width:600px;"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="mt-5 text-center">MISIÓN</h2>
+            <br />
+            <p class="text-justify">
+              Brindar nuestro servicio de Transporte Turístico con Calidad,
+              puntualidad y seguridad, ajustándonos a las necesidades de
+              nuestros clientes y satisfaciendo sus expectativas
+            </p>
+            <br />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mt-5 text-center">VISIÓN</h2>
+            <br />
+            <p class="text-justify">
+              Ser una Empresa Peruana Líder en el servicio de Transporte
+              Turístico y/o Ejecutivo a Nivel Nacional, con valores, ética y
+              profesionalismo.
+            </p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="pie" class="p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="iconos text-center p-5 text-white">
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="ico fab fa-facebook-f"></i
+              ></a>
+
+              <a href="https://www.youtube.com" target="_blank"
+                ><i class="ico fab fa-youtube"></i
+              ></a>
+
+              <a href="https://pe.linkedin.com/" target="_blank"
+                ><i class="ico fab fa-linkedin-in"></i
+              ></a>
+
+              <a href="https://www.hotmail.com" target="_blank"
+                ><i class="ico far fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-white text-center">
+            <p>Dirección: Avenida Paseo Parodi 420 424 San Isidro</p>
+          </div>
+
+          <div class="col-lg-4 text-white text-center">
+            <p>
+              Teléfono: (51-1) 422-3804 // Nextel: 822*0368 // Cel: 96656-8744
+            </p>
+          </div>
+
+          <div class="col-lg-4 text-white text-center">
+            <p>e-mail: arviritours@gmail.com// operaciones@arviritours.com//</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+
+    <!-- Place in the <head>, after the three links -->
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $(".flexslider").flexslider({
+          touch: true,
+          pauseOnAction: false,
+          pauseOnHover: false
+        });
+      });
+    </script>
+  </body>
+</html>
